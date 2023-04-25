@@ -1,3 +1,5 @@
+#Python script that connects to the elastic beastalk client to update the AMI and solution name of the service environments
+
 import boto3
 
 client = boto3.client('elasticbeanstalk')
